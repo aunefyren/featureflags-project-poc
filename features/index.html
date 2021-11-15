@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="no">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>Component LLC</title>
+
+        <!-- Bootstrap 4 CSS and custom CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+        <link rel="shortcut icon" href="assets/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="alert"></div>
+        <div class="banner">
+            <div class="login">Logged in as: Admin</div>
+            <div class="title">
+                <h1>Component LLC Feature Flags</h1>
+                <h2>Catapult Hosting admin page</h2>
+            </div>
+        </div>
+
+        <div class="box">
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Sales API</h3>
+
+                    <p>The API transferring sales numbers to the website.</p>
+                </div>
+                <div class="sales" id="sales">
+                    Not loaded...
+                </div>
+            </div>
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Status API</h3>
+
+                    <p>Status panel showing what services is running for Component LLC.</p>
+                </div>
+                <div class="status" id="status">
+                    Not loaded...
+                </div>
+            </div>
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Search status</h3>
+
+                    <p>The search function on the website.</p>
+                </div>
+                <div class="search" id="search">
+                    Not loaded...
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Log in status</h3>
+
+                    <p>The log in function on the website.</p>
+                </div>
+                <div class="log_in" id="log_in">
+                    Not loaded...
+                </div>
+            </div>
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Changes feature status</h3>
+
+                    <p>Use this for to change the status of features.</p>
+                </div>
+                <div class="form_div" id="form_div">
+                    Not loaded...
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <h4>Catapult Hosting<br>All rights reserved</h4>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $.getScript("index.js", function(){
+            });
+
+        });
+        </script>
+
+    </body>
+
+</html>

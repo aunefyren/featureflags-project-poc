@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="no">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>Component LLC</title>
+
+        <!-- Bootstrap 4 CSS and custom CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+        <link rel="shortcut icon" href="assets/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="alert"></div>
+        <div class="banner">
+            <h1>Component LLC Internal Site</h1>
+            <h2>A company that does stuff</h2>
+        </div>
+
+        <div class="box">
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Log in</h3>
+
+                    <p>Log into your company user to view the items on this page.</p>
+                </div>
+                <div class="log_in" id="log_in">
+                    Not loaded...
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Sale numbers</h3>
+
+                    <p>These are the sales figures for the last 24 hours. Sales are automatically added after being noted in the system.</p>
+                </div>
+                <div class="sales" id="sales">
+                    Not loaded...
+                </div>
+            </div>
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Search</h3>
+
+                    <p>Search items on company database</p>
+                </div>
+                <div class="search" id="search">
+                    Not loaded...
+                </div>
+            </div>
+
+            <div class="unit">
+                <div class="info">
+                    <h3>Service status</h3>
+
+                    <p>Here you can view the current status of our services. If there is a problem it will be visible here. You can also read the newest updates on current situations.</p>
+                </div>
+                <div class="status" id="status">
+                    Not loaded...
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <h4>Component LLC<br>All rights reserved and stuff</h4>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $.getScript("index.js", function(){
+            });
+
+        });
+        </script>
+
+    </body>
+
+</html>

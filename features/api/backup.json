@@ -1,0 +1,20 @@
+{
+  "error": "false",
+  "message": "No error.",
+  "feature": [
+    {
+      "name": "sales",
+      "error": "false",
+      "message": "No error.",
+      "status": "true",
+      "comment": "Turned on 05/10/20 by Larry David."
+    },
+    {
+      "name": "status",
+      "error": "false",
+      "message": "No error.",
+      "status": "true",
+      "comment": "Turned on 02/10/20 by Jerry Seinfeld."
+    }
+  ]
+}

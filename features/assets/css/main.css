@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', serif;
+    font-weight: normal;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 10em;
+    margin: auto;
+    padding: 0em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background-color: grey;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.login {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.title {
+    padding-left: 1em;
+}
+
+#alert {
+    background-color: red;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.footer {
+    width: 100%;
+    height: 5em;
+    margin: auto;
+    padding: 0;
+    vertical-align: bottom;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.box {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.unit {
+    display: inline;
+    float: left;
+    margin: 1.5em;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    width: 25em;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20em;
+    height: 10em;
+}
+
+.item {
+    display: inline-block;
+    margin: auto;
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.item:hover {
+    background-color: white;
+}
+
+.title {
+    width: 30%;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    float: left;
+}
+
+.answer {
+    width: 65%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-style: inset;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.text {
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 25px;
+    border-style: inset;
+    background-color: white;
+
+}
+
+#sales, #status, #search, #form_div, #log_in {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 0.5em;
+}
+
+.false {
+    background-color: red;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.25em;
+    float: right;
+    border-style: outset;
+}
+
+.true {
+    background-color: lightgreen;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.25em;
+    float: right;
+    border-style: outset;
+}
+
+.shadow {
+    background-color: darkgrey;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.25em;
+    float: right;
+    border-style: outset;
+}
+
+.form-group {
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+    padding: 1em;
+}
+
+.label {
+    width: 90%;
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+.input {
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+}
+
+h1, h2 {
+    color: black;
+    text-align: left;
+}
+
+h4 {
+    font-size: 0.75em;
+    text-shadow: 0;
+    font-weight: normal;
+}
